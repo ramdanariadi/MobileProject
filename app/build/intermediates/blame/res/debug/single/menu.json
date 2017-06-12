@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\open_maps.xml",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\menu\\open_maps.xml"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\get_curent_place.xml",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\menu\\get_curent_place.xml"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actionbar_icon.xml",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\menu\\actionbar_icon.xml"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

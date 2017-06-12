@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_cake.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_cake.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_snack.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_snack.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_save.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drink.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_drink.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_food.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_food.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_back.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_cross.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_cross.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_open_maps.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_open_maps.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_marker.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_marker.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_plus.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\drawable-hdpi\\ic_action_plus.png"
+    }
+]

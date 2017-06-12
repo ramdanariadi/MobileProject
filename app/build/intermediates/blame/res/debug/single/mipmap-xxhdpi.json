@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_food.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_food.png"
+    },
+    {
+        "merged": "E:\\androidProjek\\MobileProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_drink.png",
+        "source": "E:\\androidProjek\\MobileProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_drink.png"
+    }
+]

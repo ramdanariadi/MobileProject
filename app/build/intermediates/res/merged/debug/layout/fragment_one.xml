@@ -1,0 +1,68 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ramdanariadi.mobileproject.Fragment.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/coverfood"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/imageView4"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"/>
+
+                <include layout="@layout/layout_kategori">
+
+                </include>
+
+                <TextView
+                    android:text="Recent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:textSize="18sp"
+                    android:layout_margin="10dp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.08"
+                    android:id="@+id/recent_recycler"
+                    android:isScrollContainer="false" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+            android:clickable="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_action_plus"
+            android:id="@+id/floatingActionButton"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+

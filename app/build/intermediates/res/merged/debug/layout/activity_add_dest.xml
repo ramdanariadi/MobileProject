@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_dest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramdanariadi.mobileproject.Activity.AddDestActivity"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Tempat Baru"
+            app:titleTextColor="@color/cusor"
+            android:layout_weight="1"
+            app:navigationIcon="@drawable/ic_action_back"
+            android:id="@+id/addDestToolbar">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/add_nama_tempat"
+                android:hint="Nama tempat" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/addHarga"
+                android:hint="Harga" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/category_array"
+                android:id="@+id/spinnerKategori" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/addDeskripsi"
+                android:hint="Deskripsi disini" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_action_marker"
+                android:id="@+id/openMaps" />
+
+            <TextView
+                android:text="Koordinat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/koordinat" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_report_image"
+                android:id="@+id/addImage" />
+
+            <CheckBox
+                android:text="Favorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBoxFavorite" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                app:srcCompat="@android:drawable/ic_menu_report_image"
+                android:id="@+id/imageDest" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
